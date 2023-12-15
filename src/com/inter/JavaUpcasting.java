@@ -26,16 +26,19 @@ class child extends parent{
 public class JavaUpcasting {
 
 	public static void main(String[] args) {
-		parent p= new child();
-		p.name="Venkat";
-		child c= (child)p;
-		c.age=23;
-		System.out.println(c.age);
-		System.out.println(c.name);
-		c.show();
+		parent p= new parent();
+		p.show();
+		System.out.println(p.name="Venkatesh");
 //		parent p= new child();
-//		p.printdata();	
-		
+//		p.name="Venkat";
+//		child c= (child)p;
+//		c.age=23;
+//		System.out.println(c.age);
+//		System.out.println(c.name);
+//		c.show();
+////		parent p= new child();
+////		p.printdata();	
+//		
 	}
 
 }
