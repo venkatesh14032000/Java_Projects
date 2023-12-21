@@ -16,7 +16,7 @@ public class Sort_List {
 //		al.add("Venkat");
 //		al.add("Arunachal");
 //		al.add("Bharat");
-//		
+		
 //		Collections.sort(al);
 //		System.out.println(al);
 	}
