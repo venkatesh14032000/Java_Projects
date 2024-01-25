@@ -10,14 +10,13 @@ public class PracticeJava {
 
 	public static void main(String[] args) {
 		
-		//String reverse
-//		String name="Venkatesh";
-//		char[] words= name.toCharArray();
-//		StringBuffer sb= new StringBuffer();
-//		for(int i=words.length-1;i>=0;i--) {
-//			sb.append(words[i]);
-//		}
-//		System.out.println(sb);
+		String name="Venkatesh how are you man";
+		char[] words= name.toCharArray();
+		StringBuffer sb= new StringBuffer();
+		for(int i=words.length-1;i>=0;i--) {
+			sb.append(words[i]);
+		}
+		System.out.println(sb);
 		
 		//Given number is a prime number or not
 //		int x=5;
