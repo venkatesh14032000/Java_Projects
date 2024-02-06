@@ -10,11 +10,9 @@ public class Reverse {
 			StringBuilder str1= new StringBuilder();
 			char[] chars=in.toCharArray();
 			for(int i=chars.length-1;i>=0;i--) {
-				str1.append(chars[i]);
-				
+				str1.append(chars[i]);	
 			}
 			return str1.toString();
-			
 		}
 		/*StringBuilder sb= new StringBuilder();
 			sb.append(str);
@@ -29,8 +27,6 @@ public class Reverse {
 			int remainder=num%10;
 			reverse=reverse*10+remainder;
 			num=num/10;
-			
-			
 		}
 		System.out.println(reverse);*/
 	}

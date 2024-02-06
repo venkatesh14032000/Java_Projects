@@ -10,28 +10,29 @@ public class PracticeJava {
 
 	public static void main(String[] args) {
 		
-		String name="Venkatesh how are you man";
-		char[] words= name.toCharArray();
-		StringBuffer sb= new StringBuffer();
-		for(int i=words.length-1;i>=0;i--) {
-			sb.append(words[i]);
-		}
-		System.out.println(sb);
+		
+//		String name="Venkatesh how are you man";
+//		char[] words= name.toCharArray();
+//		StringBuffer sb= new StringBuffer();
+//		for(int i=words.length-1;i>=0;i--) {
+//			sb.append(words[i]);
+//		}
+//		System.out.println(sb);
 		
 		//Given number is a prime number or not
-//		int x=5;
-//		boolean flag=false;
-//		for(int i=2;i<=x/2;i++) {
-//			if(x%i==0) {
-//				flag=true;
-//				break;
-//			}
-//		}
-//		if(!flag) {
-//			System.out.println(x+" Is a prime number");
-//		}
-//		else
-//			System.out.println(x+" is not a prime number");
+		int x=6;
+		boolean flag=false;
+		for(int i=2;i<=x/2;i++) {
+			if(x%i==0) {
+				flag=true;
+				break;
+			}
+		}
+		if(!flag) {
+			System.out.println(x+" Is a prime number");
+		}
+		else
+			System.out.println(x+" is not a prime number");
 		
 		
 		//Print the common elements in the given lists.
