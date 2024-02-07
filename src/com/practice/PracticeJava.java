@@ -6,9 +6,26 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+class A{
+	{
+		System.out.println(1);
+	}
+}
+class B{
+	{
+		System.out.println(2);
+	}
+}
+class C{
+	{
+		System.out.println(3);
+	}
+}
+
 public class PracticeJava {
 
 	public static void main(String[] args) {
+		C c= new C();
 		
 		
 //		String name="Venkatesh how are you man";
@@ -20,19 +37,19 @@ public class PracticeJava {
 //		System.out.println(sb);
 		
 		//Given number is a prime number or not
-		int x=6;
-		boolean flag=false;
-		for(int i=2;i<=x/2;i++) {
-			if(x%i==0) {
-				flag=true;
-				break;
-			}
-		}
-		if(!flag) {
-			System.out.println(x+" Is a prime number");
-		}
-		else
-			System.out.println(x+" is not a prime number");
+//		int x=6;
+//		boolean flag=false;
+//		for(int i=2;i<=x/2;i++) {
+//			if(x%i==0) {
+//				flag=true;
+//				break;
+//			}
+//		}
+//		if(!flag) {
+//			System.out.println(x+" Is a prime number");
+//		}
+//		else
+//			System.out.println(x+" is not a prime number");
 		
 		
 		//Print the common elements in the given lists.
